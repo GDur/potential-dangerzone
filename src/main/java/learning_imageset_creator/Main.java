@@ -1,3 +1,4 @@
+package learning_imageset_creator;
 
 import java.awt.*;
 import java.io.File;
@@ -16,14 +17,14 @@ public class Main {
     public static void main(String args[]) {
         System.out.println("blurblrblrblr");
 
-        //  changeSuffix("training_set");
-        // changeSuffix("1000_images_trained");
-        // changeSuffix("1000_images_not_trained");
+        changeSuffix("training_set");
+        changeSuffix("1000_images_trained");
+        changeSuffix("1000_images_not_trained");
 
 
-        //manipulateImages("1000_images_not_trained",                "1000_images_not_trained_incomplete");
+        manipulateImages("1000_images_not_trained",                "1000_images_not_trained_incomplete");
 
-        //manipulateImages("1000_images_trained",                "1000_images_trained_incomplete");
+        manipulateImages("1000_images_trained",                "1000_images_trained_incomplete");
 
         System.out.println("finished");
     }
