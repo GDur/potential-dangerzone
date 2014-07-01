@@ -1,6 +1,3 @@
-/**
- * Created by GDur on 18.06.14.
- */
 
 import java.awt.*;
 import java.io.File;
@@ -24,11 +21,9 @@ public class Main {
         // changeSuffix("1000_images_not_trained");
 
 
-        manipulateImages("1000_images_not_trained",
-                "1000_images_not_trained_incomplete");
+        //manipulateImages("1000_images_not_trained",                "1000_images_not_trained_incomplete");
 
-        manipulateImages("1000_images_trained",
-                "1000_images_trained_incomplete");
+        //manipulateImages("1000_images_trained",                "1000_images_trained_incomplete");
 
         System.out.println("finished");
     }
